@@ -2,6 +2,7 @@
 export rr
 
 using capnproto_jll
+using CompilerSupportLibraries_jll
 ## Global variables
 PATH = ""
 LIBPATH = ""
@@ -49,8 +50,8 @@ function __init__()
     append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
-    foreach(p -> append!(PATH_list, p), (capnproto_jll.PATH_list,))
-    foreach(p -> append!(LIBPATH_list, p), (capnproto_jll.LIBPATH_list,))
+    foreach(p -> append!(PATH_list, p), (capnproto_jll.PATH_list, CompilerSupportLibraries_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (capnproto_jll.LIBPATH_list, CompilerSupportLibraries_jll.LIBPATH_list,))
 
     global rr_path = normpath(joinpath(artifact_dir, rr_splitpath...))
 
