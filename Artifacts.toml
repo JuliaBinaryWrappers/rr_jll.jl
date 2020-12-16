@@ -1,20 +1,20 @@
 [[rr]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a4dc70bead0bb04c1e56a38b806ee3f6816aca23"
+git-tree-sha1 = "d7ad628d1881858f9139e218c6d6e341908d6d75"
 libc = "glibc"
 os = "linux"
 
     [[rr.download]]
-    sha256 = "4691cd0c6828b2b3bf74933fe32abf2c531cdcdb5c1d92f25cc4b1a2d3fc89c6"
-    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.3.2+0/rr.v5.3.2.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "28385f8dade4d93bc6b4fb742ac63ace6c19127f14a0861b42c6ad680dd82d63"
+    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.4.1+0/rr.v5.4.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[rr]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a14b50f62fa0979a89c7df21244094f3320ffbda"
+git-tree-sha1 = "9dcd9da61fa2fba489cc59ac508125af91ad7740"
 libc = "glibc"
 os = "linux"
 
     [[rr.download]]
-    sha256 = "98023e0fb6a8531c7570c93f65eb1a7d88dfe5d5a18f639cc473c02051cad635"
-    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.3.2+0/rr.v5.3.2.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "fbb37c2cded0420cffec179a2c911297ce3aa928ea84d3d531c36182e7c60b26"
+    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.4.1+0/rr.v5.4.1.x86_64-linux-gnu-cxx11.tar.gz"
