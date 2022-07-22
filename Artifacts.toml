@@ -1,20 +1,40 @@
 [[rr]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f081ff2df5023666f1fee35498c1db5b832a31a1"
+git-tree-sha1 = "d82dc88103131fe00b1aae66429dd205c1d71d22"
 libc = "glibc"
 os = "linux"
 
     [[rr.download]]
-    sha256 = "6084b99d2466a439f035a93b76b888db9e79fbf7c66e248f387a9b1ad5e550a6"
-    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.5.0+5/rr.v5.5.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "5d224e4f2771671036caf6e3a26a61f709f16c9eace1ef8a9acf73210bca042a"
+    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.5.0+6/rr.v5.5.0.aarch64-linux-gnu-cxx03.tar.gz"
+[[rr]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7cc0d94b4e8bbb1a8a16c3b3692f2f3ce8050cae"
+libc = "glibc"
+os = "linux"
+
+    [[rr.download]]
+    sha256 = "c0419a54f74119da9c7199f9a75c94edbe1138d419b15649de066b22d5f8f700"
+    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.5.0+6/rr.v5.5.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[rr]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c9d3430b40f53fa847294a2666f752752682744c"
+libc = "glibc"
+os = "linux"
+
+    [[rr.download]]
+    sha256 = "b4ba40a3e01a07ff13f2ef6a0a5726504c4d246447a335f918d9ca86013b1056"
+    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.5.0+6/rr.v5.5.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[rr]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d09d37c8f9642702eb9430cde245b189a0f5b28c"
+git-tree-sha1 = "545b03fb120d861668ae604d739b52db2b343ebc"
 libc = "glibc"
 os = "linux"
 
     [[rr.download]]
-    sha256 = "d004c7f513298015909486787293118d77ecc5174c2b34e92fec4d8d540ab05d"
-    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.5.0+5/rr.v5.5.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "82d0e7ceda8bed913666ae07c2a5b73557933c9b1e042c2c7433c1e1cdf18b10"
+    url = "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.5.0+6/rr.v5.5.0.x86_64-linux-gnu-cxx11.tar.gz"
